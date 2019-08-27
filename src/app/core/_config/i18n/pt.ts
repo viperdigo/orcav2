@@ -20,7 +20,7 @@ export const locale = {
 				SUBMIT_BUTTON: 'Submit',
 				NO_ACCOUNT: 'Don\'t have an account?',
 				SIGNUP_BUTTON: 'Sign Up',
-				FORGOT_BUTTON: 'Forgot Password',
+				FORGOT_BUTTON: 'Esqueceu sua senha',
 				BACK_BUTTON: 'Back',
 				PRIVACY: 'Privacy',
 				LEGAL: 'Legal',
@@ -28,7 +28,7 @@ export const locale = {
 			},
 			LOGIN: {
 				TITLE: 'Login Account',
-				BUTTON: 'Sign In',
+				BUTTON: 'Login',
 			},
 			FORGOT: {
 				TITLE: 'Forgotten Password?',
@@ -48,13 +48,13 @@ export const locale = {
 				USERNAME: 'Username'
 			},
 			VALIDATION: {
-				INVALID: '{{name}} is not valid',
-				REQUIRED: '{{name}} is required',
-				MIN_LENGTH: '{{name}} minimum length is {{min}}',
+				INVALID: '{{name}} não é válido',
+				REQUIRED: '{{name}} é obrigatório',
+				MIN_LENGTH: '{{name}} tamanho mínimo é {{min}}',
 				AGREEMENT_REQUIRED: 'Accepting terms & conditions are required',
 				NOT_FOUND: 'The requested {{name}} is not found',
 				INVALID_LOGIN: 'The login detail is incorrect',
-				REQUIRED_FIELD: 'Required field',
+				REQUIRED_FIELD: 'Campo Obrigatório',
 				MIN_LENGTH_FIELD: 'Minimum field length:',
 				MAX_LENGTH_FIELD: 'Maximum field length:',
 				INVALID_FIELD: 'Field is not valid',
