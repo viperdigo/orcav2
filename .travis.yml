@@ -11,3 +11,10 @@ before_script:
 script:
 	- ng lint
 	- ng build --prod --base-href https://travis-ci.org/viperdigo/orcav2
+deploy:
+	provider: pages
+	skip_cleanup: true
+	github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+	keep_history: true
+	on:
+		branch: master
