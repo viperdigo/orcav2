@@ -2,10 +2,10 @@
 	<!-- PORTLET LOADING | Binded to TABLE Datasource -->
 	<!-- See prop => '~/core/_crud/models/data-sources/_base.datasource.ts' (loading$) -->
 	<kt-portlet-header [title]="'Roles list'" [class]="'kt-portlet__head--lg'" [viewLoading$]="dataSource.loading$">
-		
+
 		<ng-container ktPortletTools>
 			<button (click)="addRole()" mat-raised-button matTooltip="Create new role" color="primary" type="button">
-				<span>New Role</span>
+				<span>Novo Papel</span>
 			</button>
 			<!-- Buttons (Material Angular) | See off.documenations 'https://material.angular.io/components/button/overview' -->
 			<!-- mat-raised-button | Rectangular contained button w/ elevation  -->
@@ -21,9 +21,9 @@
 				<div class="row align-items-center">
 					<div class="col-md-2 kt-margin-bottom-10-mobile">
 						<mat-form-field class="mat-form-field-fluid">
-							<input matInput placeholder="Search user" #searchInput placeholder="Search">
+							<input matInput placeholder="Search user" #searchInput placeholder="Procurar">
 							<mat-hint align="start">
-								<strong>Search</strong> in all fields
+								<strong>Procurar</strong> em todos os campos
 							</mat-hint>
 						</mat-form-field>
 					</div>
@@ -122,7 +122,7 @@
 
 				<mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
 			</mat-table>
-			
+
 			<div class="mat-table__message" *ngIf="!dataSource.hasItems">No records found</div><!-- Message for empty data  -->
 			<div class="mat-table__message" *ngIf="dataSource.isPreloadTextViewed$ | async">Please wait....</div>
 		</div>

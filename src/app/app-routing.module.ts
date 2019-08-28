@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 // Components
 import { BaseComponent } from './views/theme/base/base.component';
+import { MyPageComponent } from './views/pages/my-page/my-page.component';
 import { ErrorPageComponent } from './views/theme/content/error-page/error-page.component';
 // Auth
 import { AuthGuard } from './core/auth';
@@ -46,6 +47,10 @@ const routes: Routes = [
 			{
 				path: 'builder',
 				loadChildren: () => import('app/views/theme/content/builder/builder.module').then(m => m.BuilderModule)
+			},
+			{
+				path: 'my-page',
+				component: MyPageComponent
 			},
 			{
 				path: 'error/403',

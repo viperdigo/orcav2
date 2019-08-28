@@ -21,10 +21,10 @@ export const locale = {
 				NO_ACCOUNT: 'Don\'t have an account?',
 				SIGNUP_BUTTON: 'Sign Up',
 				FORGOT_BUTTON: 'Esqueceu sua senha',
-				BACK_BUTTON: 'Back',
-				PRIVACY: 'Privacy',
+				BACK_BUTTON: 'Voltar',
+				PRIVACY: 'Privacidade',
 				LEGAL: 'Legal',
-				CONTACT: 'Contact',
+				CONTACT: 'Contato',
 			},
 			LOGIN: {
 				TITLE: 'Login Account',

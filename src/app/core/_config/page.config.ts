@@ -6,6 +6,9 @@ export class PageConfig {
 				'desc': 'Previsões de Despesas e Investimentos'
 			},
 		},
+		'my-page': { // <= add page URL
+			page: { title: 'My page', desc: 'My page desc' } // <= Page name and description
+		},
 		ngbootstrap: {
 			accordion: {
 				page: {title: 'Accordion', desc: ''}
