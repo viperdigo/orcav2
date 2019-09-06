@@ -10,7 +10,7 @@
     "lint": "node_modules/@angular/cli/bin/ng lint",
     "e2e": "node_modules/@angular/cli/bin/ng e2e",
     "bundle-report": "webpack-bundle-analyzer dist/stats.json",
-  	"heroku-postbuild": "node_modules/@angular/cli/bin/ng build --prod"
+  	"heroku-postbuild": "node_modules/@angular/cli/bin/ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
